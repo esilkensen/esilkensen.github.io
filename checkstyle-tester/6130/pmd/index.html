@@ -147,6 +147,47 @@
 									
 								
 									
+										
+									<tr>
+										<td class="c">AbbreviationAsWordInName</td>
+										
+										<td class="c">
+											
+												allowedAbbreviations
+												
+													<li>XML,URL</li>
+												
+												<br/>
+											
+												allowedAbbreviationLength
+												
+													<li>1</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowedAbbreviations
+												
+													<li>XML,URL</li>
+												
+												<br/>
+											
+												allowedAbbreviationLength
+												
+													<li>1</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
 								
 									
 								
@@ -164,13 +205,17 @@
 							<th>Files</th>
 							<th>Violations</th>
 							
+								<th>Severity-warning</th>
+							
 								<th>Severity-error</th>
 							
 						</tr>
 						<tr class="b">
 							<td>base</td>
 							<td id="filesBase">1233</td>
-							<td id="totalBase">1</td>
+							<td id="totalBase">577</td>
+							
+								<td id="warningSeverityNumBase">576</td>
 							
 								<td id="errorSeverityNumBase">1</td>
 							
@@ -178,15 +223,19 @@
 						<tr class="a">
 							<td>patch</td>
 							<td id="filesPatch">1233</td>
-							<td id="totalPatch">1</td>
+							<td id="totalPatch">542</td>
+							
+								<td id="warningSeverityNumPatch">541</td>
 							
 								<td id="errorSeverityNumPatch">1</td>
 							
 						</tr>
 						<tr class="d">
 							<td>difference</td>
-							<td id="filesDiff">0</td>
-							<td id="totalDiff">0</td>
+							<td id="filesDiff">20</td>
+							<td id="totalDiff">35</td>
+							
+								<td id="warningSeverityNumDiff">35</td>
 							
 								<td id="errorSeverityNumDiff">0</td>
 							
@@ -201,11 +250,15 @@
 								
 									<th>com.puppycrawl.tools.checkstyle.Checker</th>
 								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck</th>
+								
 							</tr>
 							<tr class="b">
 								<td>base</td>
 								
 									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumBase">1</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumBase">576</td>
 								
 							</tr>
 							<tr class="a">
@@ -213,24 +266,903 @@
 								
 									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumPatch">1</td>
 								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumPatch">541</td>
+								
 							</tr>
 							<tr class="d">
 								<td>difference</td>
 								
 									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumDiff">0</td>
 								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumDiff">35</td>
+								
 							<tr>
 						</table>
 					
 
 					<br />
-					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">35</span><br />
 					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">0</span><br />
 				</div>
 			</div>
 
 			<div class="section">
 				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/RuleSetFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;parsePropertyNodeBR&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/RuleSetFactory.java.html#L705">705</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/RuleSetWriter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;createPropertyDefinitionElementBR&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/RuleSetWriter.java.html#L344">344</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/benchmark/StringBuilderCR.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;StringBuilderCR&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/benchmark/StringBuilderCR.java.html#L12">12</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;theCR&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/benchmark/StringBuilderCR.java.html#L17">17</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;theCR&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/benchmark/StringBuilderCR.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/cpd/TokenEntry.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;tokenSrcID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/cpd/TokenEntry.java.html#L16">16</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;tokenSrcID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/cpd/TokenEntry.java.html#L40">40</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;getTokenSrcID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/cpd/TokenEntry.java.html#L83">83</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/lang/ast/xpath/saxon/AbstractNodeInfo.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;getStringValueCS&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/lang/ast/xpath/saxon/AbstractNodeInfo.java.html#L54">54</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/lang/ast/xpath/saxon/DocumentNode.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;selectID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/lang/ast/xpath/saxon/DocumentNode.java.html#L63">63</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/renderers/CSVRenderer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;theCR&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/main/java/net/sourceforge/pmd/renderers/CSVRenderer.java.html#L63">63</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/AbstractRuleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;testCreateRV&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/AbstractRuleTest.java.html#L63">63</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/RuleSetTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;RC&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/RuleSetTest.java.html#L428">428</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/cpd/CSVRendererTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;tokenSrcID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/cpd/CSVRendererTest.java.html#L35">35</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/cpd/MatchTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;tokenSrcID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/cpd/MatchTest.java.html#L54">54</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/cpd/XMLRendererTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;tokenSrcID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/cpd/XMLRendererTest.java.html#L127">127</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/stat/StatisticalRuleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;testST&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/stat/StatisticalRuleTest.java.html#L414">414</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;testTS&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/stat/StatisticalRuleTest.java.html#L451">451</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;testSM&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/stat/StatisticalRuleTest.java.html#L488">488</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;testMS&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/stat/StatisticalRuleTest.java.html#L526">526</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;testTM&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/stat/StatisticalRuleTest.java.html#L563">563</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;testMT&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-core/src/test/java/net/sourceforge/pmd/stat/StatisticalRuleTest.java.html#L600">600</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/AccessorClassGenerationRule.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;classID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/AccessorClassGenerationRule.java.html#L38">38</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;formerID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/AccessorClassGenerationRule.java.html#L163">163</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;formerID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/AccessorClassGenerationRule.java.html#L190">190</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;setClassID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/AccessorClassGenerationRule.java.html#L291">291</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;getClassID&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/AccessorClassGenerationRule.java.html#L295">295</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/ConstructorCallsOverridableMethodRule.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;initCI&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/ConstructorCallsOverridableMethodRule.java.html#L481">481</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/UseUtilityClassRule.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;isOK&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/design/UseUtilityClassRule.java.html#L29">29</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/unusedcode/UnusedPrivateFieldRule.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;isOK&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/rule/unusedcode/UnusedPrivateFieldRule.java.html#L117">117</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/test/java/net/sourceforge/pmd/lang/java/ast/SimpleNodeTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;uCD&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-java/src/test/java/net/sourceforge/pmd/lang/java/ast/SimpleNodeTest.java.html#L43">43</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-jsp/src/test/java/net/sourceforge/pmd/lang/jsp/ast/JspDocStyleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;quoteEL&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-jsp/src/test/java/net/sourceforge/pmd/lang/jsp/ast/JspDocStyleTest.java.html#L367">367</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;noQuoteAttrWithJspEL&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-jsp/src/test/java/net/sourceforge/pmd/lang/jsp/ast/JspDocStyleTest.java.html#L408">408</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-vm/src/main/java/net/sourceforge/pmd/lang/vm/util/VelocityCharStream.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;prevCharIsCR&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-vm/src/main/java/net/sourceforge/pmd/lang/vm/util/VelocityCharStream.java.html#L56">56</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;prevCharIsLF&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/pmd/pmd-vm/src/main/java/net/sourceforge/pmd/lang/vm/util/VelocityCharStream.java.html#L57">57</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
 			</div>
 		</div>
 	</body>

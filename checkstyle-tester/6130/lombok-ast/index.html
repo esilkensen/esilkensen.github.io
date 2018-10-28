@@ -147,6 +147,47 @@
 									
 								
 									
+										
+									<tr>
+										<td class="c">AbbreviationAsWordInName</td>
+										
+										<td class="c">
+											
+												allowedAbbreviations
+												
+													<li>XML,URL</li>
+												
+												<br/>
+											
+												allowedAbbreviationLength
+												
+													<li>1</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowedAbbreviations
+												
+													<li>XML,URL</li>
+												
+												<br/>
+											
+												allowedAbbreviationLength
+												
+													<li>1</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
 								
 									
 								
@@ -164,13 +205,17 @@
 							<th>Files</th>
 							<th>Violations</th>
 							
+								<th>Severity-warning</th>
+							
 								<th>Severity-error</th>
 							
 						</tr>
 						<tr class="b">
 							<td>base</td>
 							<td id="filesBase">225</td>
-							<td id="totalBase">1</td>
+							<td id="totalBase">191</td>
+							
+								<td id="warningSeverityNumBase">190</td>
 							
 								<td id="errorSeverityNumBase">1</td>
 							
@@ -178,15 +223,19 @@
 						<tr class="a">
 							<td>patch</td>
 							<td id="filesPatch">225</td>
-							<td id="totalPatch">1</td>
+							<td id="totalPatch">186</td>
+							
+								<td id="warningSeverityNumPatch">185</td>
 							
 								<td id="errorSeverityNumPatch">1</td>
 							
 						</tr>
 						<tr class="d">
 							<td>difference</td>
-							<td id="filesDiff">0</td>
-							<td id="totalDiff">0</td>
+							<td id="filesDiff">4</td>
+							<td id="totalDiff">5</td>
+							
+								<td id="warningSeverityNumDiff">5</td>
 							
 								<td id="errorSeverityNumDiff">0</td>
 							
@@ -201,11 +250,15 @@
 								
 									<th>com.puppycrawl.tools.checkstyle.Checker</th>
 								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck</th>
+								
 							</tr>
 							<tr class="b">
 								<td>base</td>
 								
 									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumBase">1</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumBase">190</td>
 								
 							</tr>
 							<tr class="a">
@@ -213,24 +266,169 @@
 								
 									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumPatch">1</td>
 								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumPatch">185</td>
+								
 							</tr>
 							<tr class="d">
 								<td>difference</td>
 								
 									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumDiff">0</td>
 								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumDiff">5</td>
+								
 							<tr>
 						</table>
 					
 
 					<br />
-					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">5</span><br />
 					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">0</span><br />
 				</div>
 			</div>
 
 			<div class="section">
 				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/IntegralLiteral.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;newLT&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/IntegralLiteral.java.html#L220">220</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/BasicsParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;optWS&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/BasicsParser.java.html#L52">52</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;mandatoryWS&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/BasicsParser.java.html#L60">60</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/LiteralsParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;hexFP&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/LiteralsParser.java.html#L185">185</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/erik/Code/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/Source.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;atCR&#39; must contain no more than &#39;2&#39; consecutive capital letters.</td>
+								
+									
+									<td><a href = "xref/Users/erik/Code/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/Source.java.html#L125">125</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
 			</div>
 		</div>
 	</body>
