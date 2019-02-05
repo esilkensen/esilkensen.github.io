@@ -1,0 +1,5722 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">ThrowsCount</td>
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">FinalLocalVariable</td>
+										
+										<td class="c">
+											
+												validateEnhancedForLoopVariable
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF, PARAMETER_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												validateEnhancedForLoopVariable
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF, PARAMETER_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">2561</td>
+							<td id="totalBase">97530</td>
+							
+								<td id="warningSeverityNumBase">97530</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">2561</td>
+							<td id="totalPatch">97756</td>
+							
+								<td id="warningSeverityNumPatch">97756</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">112</td>
+							<td id="totalDiff">228</td>
+							
+								<td id="warningSeverityNumDiff">228</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheckModuleNumBase">97530</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheckModuleNumPatch">97756</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheckModuleNumDiff">228</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">1</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">227</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/dev-support/jenkins-tools/buildstats/src/main/java/org/apache/hadoop/hbase/devtools/buildstats/HistoryReport.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;i&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/dev-support/jenkins-tools/buildstats/src/main/java/org/apache/hadoop/hbase/devtools/buildstats/HistoryReport.java.html#L61">61</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-annotations/src/main/java/org/apache/hadoop/hbase/classification/tools/RootDocProcessor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;annotation&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-annotations/src/main/java/org/apache/hadoop/hbase/classification/tools/RootDocProcessor.java.html#L172">172</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HColumnDescriptor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HColumnDescriptor.java.html#L335">335</a></td>
+								
+								
+									
+									<td>68</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HColumnDescriptor.java.html#L1342">1342</a></td>
+								
+								
+									
+									<td>68</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;a&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HColumnDescriptor.java.html#L1413">1413</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HColumnDescriptor.java.html#L1428">1428</a></td>
+								
+								
+									
+									<td>68</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HTableDescriptor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HTableDescriptor.java.html#L366">366</a></td>
+								
+								
+									
+									<td>68</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HTableDescriptor.java.html#L1088">1088</a></td>
+								
+								
+									
+									<td>68</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HTableDescriptor.java.html#L1566">1566</a></td>
+								
+								
+									
+									<td>68</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;a&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/HTableDescriptor.java.html#L1598">1598</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/client/MultiServerCallable.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/client/MultiServerCallable.java.html#L99">99</a></td>
+								
+								
+									
+									<td>45</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Put.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Put.java.html#L125">125</a></td>
+								
+								
+									
+									<td>40</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/replication/ReplicationPeersZKImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;pair&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/replication/ReplicationPeersZKImpl.java.html#L517">517</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/replication/ReplicationPeersZKImpl.java.html#L536">536</a></td>
+								
+								
+									
+									<td>36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;child&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKUtil.java.html#L1762">1762</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestFastFailWithoutTestUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestFastFailWithoutTestUtil.java.html#L276">276</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/ChoreService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;chore&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/ChoreService.java.html#L329">329</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/KeyValueTestUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;kv&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/KeyValueTestUtil.java.html#L119">119</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/TableName.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;tn&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/TableName.java.html#L352">352</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/Tag.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;tag&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/Tag.java.html#L184">184</a></td>
+								
+								
+									
+									<td>14</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/util/test/RedundantKVGenerator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;kv&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/util/test/RedundantKVGenerator.java.html#L300">300</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/TestClassFinder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;fileAndPath&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/TestClassFinder.java.html#L380">380</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L161">161</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L228">228</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L373">373</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L441">441</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L509">509</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L576">576</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L644">644</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L714">714</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L784">784</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L897">897</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L972">972</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ord&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestOrderedBytes.java.html#L1005">1005</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/thrift/DemoClient.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;col2&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/thrift/DemoClient.java.html#L178">178</a></td>
+								
+								
+									
+									<td>31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/DistributedHBaseCluster.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;server&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/DistributedHBaseCluster.java.html#L305">305</a></td>
+								
+								
+									
+									<td>23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;sn&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/DistributedHBaseCluster.java.html#L312">312</a></td>
+								
+								
+									
+									<td>23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;server&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/DistributedHBaseCluster.java.html#L363">363</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;sn&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/DistributedHBaseCluster.java.html#L372">372</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/chaos/actions/BatchRestartRsAction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;server&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/chaos/actions/BatchRestartRsAction.java.html#L44">44</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;server&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/chaos/actions/BatchRestartRsAction.java.html#L49">49</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;server&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/chaos/actions/BatchRestartRsAction.java.html#L58">58</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/chaos/policies/TwoConcurrentActionPolicy.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;a&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/chaos/policies/TwoConcurrentActionPolicy.java.html#L71">71</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestReplication.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;cluster&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestReplication.java.html#L186">186</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-prefix-tree/src/test/java/org/apache/hadoop/hbase/codec/prefixtree/column/data/TestColumnDataRandom.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;col&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-prefix-tree/src/test/java/org/apache/hadoop/hbase/codec/prefixtree/column/data/TestColumnDataRandom.java.html#L42">42</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-prefix-tree/src/test/java/org/apache/hadoop/hbase/codec/prefixtree/row/data/TestRowDataUrlsExample.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;tokenizerNode&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-prefix-tree/src/test/java/org/apache/hadoop/hbase/codec/prefixtree/row/data/TestRowDataUrlsExample.java.html#L92">92</a></td>
+								
+								
+									
+									<td>23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;writer&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-prefix-tree/src/test/java/org/apache/hadoop/hbase/codec/prefixtree/row/data/TestRowDataUrlsExample.java.html#L97">97</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;tokenizerNode&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-prefix-tree/src/test/java/org/apache/hadoop/hbase/codec/prefixtree/row/data/TestRowDataUrlsExample.java.html#L102">102</a></td>
+								
+								
+									
+									<td>23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;writer&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-prefix-tree/src/test/java/org/apache/hadoop/hbase/codec/prefixtree/row/data/TestRowDataUrlsExample.java.html#L110">110</a></td>
+								
+								
+									
+									<td>23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RESTServer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RESTServer.java.html#L122">122</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/SchemaResource.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/SchemaResource.java.html#L114">114</a></td>
+								
+								
+									
+									<td>36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/StorageClusterStatusModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;node&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/StorageClusterStatusModel.java.html#L713">713</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;node&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/StorageClusterStatusModel.java.html#L761">761</a></td>
+								
+								
+									
+									<td>36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/PerformanceEvaluation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;t&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/PerformanceEvaluation.java.html#L649">649</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/TestScannersWithFilters.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/TestScannersWithFilters.java.html#L140">140</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A56" href = "#A56">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/TestScannersWithFilters.java.html#L148">148</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A57" href = "#A57">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/TestScannersWithFilters.java.html#L158">158</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A58" href = "#A58">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/TestScannersWithFilters.java.html#L166">166</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A59" href = "#A59">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/TestScannersWithFilters.java.html#L176">176</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A60" href = "#A60">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;QUALIFIER&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/TestScannersWithFilters.java.html#L191">191</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/MultiRowMutationEndpoint.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A61" href = "#A61">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;m&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/MultiRowMutationEndpoint.java.html#L92">92</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A62" href = "#A62">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java.html#L396">396</a></td>
+								
+								
+									
+									<td>36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A63" href = "#A63">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;col&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java.html#L674">674</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A64" href = "#A64">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;col&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java.html#L684">684</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/KeyValueSortReducer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A65" href = "#A65">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;kv&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/KeyValueSortReducer.java.html#L43">43</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/AssignmentVerificationReport.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A66" href = "#A66">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/AssignmentVerificationReport.java.html#L226">226</a></td>
+								
+								
+									
+									<td>41</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/CatalogJanitor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A67" href = "#A67">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/CatalogJanitor.java.html#L229">229</a></td>
+								
+								
+									
+									<td>43</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BaseLoadBalancer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A68" href = "#A68">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BaseLoadBalancer.java.html#L204">204</a></td>
+								
+								
+									
+									<td>49</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A69" href = "#A69">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BaseLoadBalancer.java.html#L233">233</a></td>
+								
+								
+									
+									<td>49</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A70" href = "#A70">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BaseLoadBalancer.java.html#L255">255</a></td>
+								
+								
+									
+									<td>35</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A71" href = "#A71">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BaseLoadBalancer.java.html#L259">259</a></td>
+								
+								
+									
+									<td>35</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A72" href = "#A72">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;region&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BaseLoadBalancer.java.html#L1048">1048</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/SimpleLoadBalancer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A73" href = "#A73">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;server&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/SimpleLoadBalancer.java.html#L231">231</a></td>
+								
+								
+									
+									<td>54</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A74" href = "#A74">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;server&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/SimpleLoadBalancer.java.html#L270">270</a></td>
+								
+								
+									
+									<td>54</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/CleanerChore.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A75" href = "#A75">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;file&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/CleanerChore.java.html#L215">215</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/DefaultMemStore.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A76" href = "#A76">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;cell&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/DefaultMemStore.java.html#L134">134</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A77" href = "#A77">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;flush&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java.html#L2278">2278</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A78" href = "#A78">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;p&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java.html#L5051">5051</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A79" href = "#A79">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;cell&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java.html#L6802">6802</a></td>
+								
+								
+									
+									<td>23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A80" href = "#A80">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java.html#L1279">1279</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MultiRowMutationProcessor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A81" href = "#A81">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;m&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MultiRowMutationProcessor.java.html#L76">76</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RegionMergeTransactionImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A82" href = "#A82">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RegionMergeTransactionImpl.java.html#L638">638</a></td>
+								
+								
+									
+									<td>45</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSink.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A83" href = "#A83">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSink.java.html#L126">126</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceManager.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A84" href = "#A84">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;src&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceManager.java.html#L475">475</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A85" href = "#A85">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;src&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceManager.java.html#L480">480</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/AccessController.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A86" href = "#A86">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/AccessController.java.html#L717">717</a></td>
+								
+								
+									
+									<td>53</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/RestoreSnapshotHelper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A87" href = "#A87">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;regionInfo&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/RestoreSnapshotHelper.java.html#L323">323</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A88" href = "#A88">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;storeFile&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/RestoreSnapshotHelper.java.html#L415">415</a></td>
+								
+								
+									
+									<td>47</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A89" href = "#A89">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/RestoreSnapshotHelper.java.html#L693">693</a></td>
+								
+								
+									
+									<td>68</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A90" href = "#A90">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hbi&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java.html#L1122">1122</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A91" href = "#A91">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java.html#L1798">1798</a></td>
+								
+								
+									
+									<td>48</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/JVMClusterUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A92" href = "#A92">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;t&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/JVMClusterUtil.java.html#L261">261</a></td>
+								
+								
+									
+									<td>31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A93" href = "#A93">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;t&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/JVMClusterUtil.java.html#L280">280</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A94" href = "#A94">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;dr&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitter.java.html#L465">465</a></td>
+								
+								
+									
+									<td>35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/wal/DisabledWALProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A95" href = "#A95">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;listener&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/wal/DisabledWALProvider.java.html#L116">116</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A96" href = "#A96">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;listener&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/wal/DisabledWALProvider.java.html#L119">119</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALSplitter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A97" href = "#A97">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;t&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALSplitter.java.html#L1207">1207</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/PerformanceEvaluationCommons.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A98" href = "#A98">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;t&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/PerformanceEvaluationCommons.java.html#L76">76</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/TestDrainingServer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A99" href = "#A99">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/TestDrainingServer.java.html#L228">228</a></td>
+								
+								
+									
+									<td>41</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A100" href = "#A100">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/TestDrainingServer.java.html#L258">258</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/TestGlobalMemStoreSize.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A101" href = "#A101">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;server&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/TestGlobalMemStoreSize.java.html#L86">86</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/backup/example/TestZooKeeperTableArchiveClient.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A102" href = "#A102">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;file&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/backup/example/TestZooKeeperTableArchiveClient.java.html#L240">240</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestAdmin1.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A103" href = "#A103">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;result&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestAdmin1.java.html#L1064">1064</a></td>
+								
+								
+									
+									<td>44</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A104" href = "#A104">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;row&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L3928">3928</a></td>
+								
+								
+									
+									<td>12</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A105" href = "#A105">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;c&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L4242">4242</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A106" href = "#A106">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;result&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L5069">5069</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A107" href = "#A107">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;result&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L5083">5083</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A108" href = "#A108">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;result&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L5096">5096</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A109" href = "#A109">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L5632">5632</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A110" href = "#A110">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L5646">5646</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A111" href = "#A111">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L5689">5689</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A112" href = "#A112">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L6149">6149</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A113" href = "#A113">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L6225">6225</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A114" href = "#A114">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L6245">6245</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A115" href = "#A115">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L6266">6266</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A116" href = "#A116">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L6286">6286</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A117" href = "#A117">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide.java.html#L6306">6306</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSideNoCodec.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A118" href = "#A118">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSideNoCodec.java.html#L70">70</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/replication/TestReplicationAdminWithClusters.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A119" href = "#A119">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;fam&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/replication/TestReplicationAdminWithClusters.java.html#L75">75</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A120" href = "#A120">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;fam&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/replication/TestReplicationAdminWithClusters.java.html#L125">125</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A121" href = "#A121">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;fam&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/client/replication/TestReplicationAdminWithClusters.java.html#L129">129</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestBatchCoprocessorEndpoint.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A122" href = "#A122">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestBatchCoprocessorEndpoint.java.html#L169">169</a></td>
+								
+								
+									
+									<td>41</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A123" href = "#A123">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestBatchCoprocessorEndpoint.java.html#L205">205</a></td>
+								
+								
+									
+									<td>41</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestCoprocessorEndpoint.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A124" href = "#A124">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestCoprocessorEndpoint.java.html#L146">146</a></td>
+								
+								
+									
+									<td>34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A125" href = "#A125">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestCoprocessorEndpoint.java.html#L206">206</a></td>
+								
+								
+									
+									<td>38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestCoprocessorTableEndpoint.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A126" href = "#A126">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestCoprocessorTableEndpoint.java.html#L157">157</a></td>
+								
+								
+									
+									<td>36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestHTableWrapper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A127" href = "#A127">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r2&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestHTableWrapper.java.html#L283">283</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A128" href = "#A128">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r2&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestHTableWrapper.java.html#L291">291</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestRowProcessorEndpoint.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A129" href = "#A129">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;kv&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestRowProcessorEndpoint.java.html#L428">428</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestWALObserver.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A130" href = "#A130">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;cell&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestWALObserver.java.html#L217">217</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestDependentColumnFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A131" href = "#A131">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;val&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestDependentColumnFilter.java.html#L233">233</a></td>
+								
+								
+									
+									<td>14</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A132" href = "#A132">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L149">149</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A133" href = "#A133">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L157">157</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A134" href = "#A134">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L170">170</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A135" href = "#A135">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L178">178</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A136" href = "#A136">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L188">188</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A137" href = "#A137">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;QUALIFIER&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L203">203</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A138" href = "#A138">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L228">228</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A139" href = "#A139">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L237">237</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A140" href = "#A140">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ROW&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L249">249</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A141" href = "#A141">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;keyValue&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilter.java.html#L277">277</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/fs/TestBlockReorder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A142" href = "#A142">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;region&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/fs/TestBlockReorder.java.html#L298">298</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/TestHFileLink.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A143" href = "#A143">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;name&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/TestHFileLink.java.html#L48">48</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A144" href = "#A144">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;name&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/TestHFileLink.java.html#L52">52</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/encoding/TestDataBlockEncoders.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A145" href = "#A145">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;seekBefore&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/encoding/TestDataBlockEncoders.java.html#L194">194</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/CacheTestUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A146" href = "#A146">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;block&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/CacheTestUtils.java.html#L128">128</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A147" href = "#A147">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;block&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/CacheTestUtils.java.html#L133">133</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A148" href = "#A148">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;block&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/CacheTestUtils.java.html#L141">141</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestLazyDataBlockDecompression.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A149" href = "#A149">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestLazyDataBlockDecompression.java.html#L176">176</a></td>
+								
+								
+									
+									<td>51</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestLruBlockCache.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A150" href = "#A150">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;block&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestLruBlockCache.java.html#L108">108</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A151" href = "#A151">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;block&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestLruBlockCache.java.html#L113">113</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A152" href = "#A152">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;block&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestLruBlockCache.java.html#L122">122</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A153" href = "#A153">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;block&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestLruBlockCache.java.html#L130">130</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A154" href = "#A154">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;block&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestLruBlockCache.java.html#L208">208</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestSimpleRpcScheduler.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A155" href = "#A155">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;task&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestSimpleRpcScheduler.java.html#L118">118</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A156" href = "#A156">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;task&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestSimpleRpcScheduler.java.html#L126">126</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/mapred/TestTableInputFormat.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A157" href = "#A157">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;family&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/mapred/TestTableInputFormat.java.html#L128">128</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/mapreduce/TestTableInputFormat.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A158" href = "#A158">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;family&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/mapreduce/TestTableInputFormat.java.html#L125">125</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestClusterStatusPublisher.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A159" href = "#A159">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;sn&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestClusterStatusPublisher.java.html#L107">107</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A160" href = "#A160">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;sn&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestClusterStatusPublisher.java.html#L116">116</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestDistributedLogSplitting.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A161" href = "#A161">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hri&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestDistributedLogSplitting.java.html#L851">851</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A162" href = "#A162">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;curEncodedRegionName&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestDistributedLogSplitting.java.html#L1181">1181</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterFailover.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A163" href = "#A163">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hri&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterFailover.java.html#L270">270</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A164" href = "#A164">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hri&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterFailover.java.html#L276">276</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A165" href = "#A165">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hri&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterFailover.java.html#L426">426</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A166" href = "#A166">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hri&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterFailover.java.html#L603">603</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A167" href = "#A167">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hri&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterFailover.java.html#L608">608</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A168" href = "#A168">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hri&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterFailover.java.html#L631">631</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A169" href = "#A169">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hri&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterFailover.java.html#L636">636</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A170" href = "#A170">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hri&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterFailover.java.html#L892">892</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestRegionPlacement.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A171" href = "#A171">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestRegionPlacement.java.html#L209">209</a></td>
+								
+								
+									
+									<td>47</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestRestartCluster.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A172" href = "#A172">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;TABLE&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestRestartCluster.java.html#L109">109</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A173" href = "#A173">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;TABLE&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestRestartCluster.java.html#L112">112</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A174" href = "#A174">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;TABLE&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestRestartCluster.java.html#L160">160</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/BalancerTestBase.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A175" href = "#A175">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;server&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/BalancerTestBase.java.html#L89">89</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A176" href = "#A176">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/BalancerTestBase.java.html#L120">120</a></td>
+								
+								
+									
+									<td>47</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/TestBaseLoadBalancer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A177" href = "#A177">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;a&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/TestBaseLoadBalancer.java.html#L373">373</a></td>
+								
+								
+									
+									<td>51</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/cleaner/TestSnapshotFromMaster.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A178" href = "#A178">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;fileName&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/cleaner/TestSnapshotFromMaster.java.html#L339">339</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/snapshot/TestSnapshotFileCache.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A179" href = "#A179">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;filePath&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/master/snapshot/TestSnapshotFileCache.java.html#L298">298</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/migration/TestNamespaceUpgrade.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A180" href = "#A180">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;table&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/migration/TestNamespaceUpgrade.java.html#L219">219</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A181" href = "#A181">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;res&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/migration/TestNamespaceUpgrade.java.html#L221">221</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/TestZKProcedureControllers.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A182" href = "#A182">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;cc&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/TestZKProcedureControllers.java.html#L201">201</a></td>
+								
+								
+									
+									<td>32</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A183" href = "#A183">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;cc&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/TestZKProcedureControllers.java.html#L282">282</a></td>
+								
+								
+									
+									<td>32</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestQuotaAdmin.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A184" href = "#A184">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;user&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestQuotaAdmin.java.html#L112">112</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A185" href = "#A185">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;table&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestQuotaAdmin.java.html#L128">128</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A186" href = "#A186">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ns&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestQuotaAdmin.java.html#L134">134</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCellSkipListSet.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A187" href = "#A187">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;kv&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCellSkipListSet.java.html#L71">71</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestDefaultMemStore.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A188" href = "#A188">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;scanner&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestDefaultMemStore.java.html#L118">118</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestEncryptionKeyRotation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A189" href = "#A189">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;path&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestEncryptionKeyRotation.java.html#L110">110</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A190" href = "#A190">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;path&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestEncryptionKeyRotation.java.html#L171">171</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A191" href = "#A191">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;sf&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java.html#L756">756</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A192" href = "#A192">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;kv&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java.html#L3884">3884</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A193" href = "#A193">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;storefile&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java.html#L4023">4023</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A194" href = "#A194">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java.html#L560">560</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A195" href = "#A195">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java.html#L650">650</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A196" href = "#A196">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java.html#L751">751</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A197" href = "#A197">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;store&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java.html#L761">761</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A198" href = "#A198">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java.html#L849">849</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A199" href = "#A199">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java.html#L930">930</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A200" href = "#A200">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;path&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java.html#L1417">1417</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A201" href = "#A201">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;family&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java.html#L1463">1463</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestMajorCompaction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A202" href = "#A202">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;store&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestMajorCompaction.java.html#L210">210</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestMemStoreChunkPool.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A203" href = "#A203">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;scanner&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestMemStoreChunkPool.java.html#L172">172</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestMultiColumnScanner.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A204" href = "#A204">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;qual&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestMultiColumnScanner.java.html#L169">169</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A205" href = "#A205">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ts&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestMultiColumnScanner.java.html#L193">193</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRegionMergeTransactionOnCluster.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A206" href = "#A206">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;p&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRegionMergeTransactionOnCluster.java.html#L308">308</a></td>
+								
+								
+									
+									<td>40</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestReversibleScanners.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A207" href = "#A207">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;specifiedQualifier&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestReversibleScanners.java.html#L337">337</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSeekOptimizations.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A208" href = "#A208">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;ts&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSeekOptimizations.java.html#L404">404</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestServerCustomProtocol.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A209" href = "#A209">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestServerCustomProtocol.java.html#L189">189</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A210" href = "#A210">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestServerCustomProtocol.java.html#L210">210</a></td>
+								
+								
+									
+									<td>38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSplitTransactionOnCluster.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A211" href = "#A211">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;r&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSplitTransactionOnCluster.java.html#L617">617</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A212" href = "#A212">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;d&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSplitTransactionOnCluster.java.html#L634">634</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestStore.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A213" href = "#A213">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;kv&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestStore.java.html#L898">898</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestStoreFileInfo.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A214" href = "#A214">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;name&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestStoreFileInfo.java.html#L47">47</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestTags.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A215" href = "#A215">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;tag&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestTags.java.html#L423">423</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestKeyValueCompression.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A216" href = "#A216">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;kv&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestKeyValueCompression.java.html#L73">73</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestWALReplay.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A217" href = "#A217">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hcd&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestWALReplay.java.html#L297">297</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A218" href = "#A218">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hcd&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestWALReplay.java.html#L499">499</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A219" href = "#A219">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hcd&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestWALReplay.java.html#L608">608</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A220" href = "#A220">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;hcd&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestWALReplay.java.html#L885">885</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestRegionReplicaReplicationEndpointNoMaster.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A221" href = "#A221">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestRegionReplicaReplicationEndpointNoMaster.java.html#L298">298</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/security/visibility/ExpAsStringVisibilityLabelServiceImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A222" href = "#A222">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;label&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/security/visibility/ExpAsStringVisibilityLabelServiceImpl.java.html#L344">344</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/security/visibility/TestVisibilityLabelsReplication.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A223" href = "#A223">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;tag&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/security/visibility/TestVisibilityLabelsReplication.java.html#L322">322</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A224" href = "#A224">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;tag&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/security/visibility/TestVisibilityLabelsReplication.java.html#L326">326</a></td>
+								
+								
+									
+									<td>15</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/util/HFileArchiveTestingUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A225" href = "#A225">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/util/HFileArchiveTestingUtil.java.html#L192">192</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A226" href = "#A226">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/util/HFileArchiveTestingUtil.java.html#L197">197</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/util/TestHBaseFsck.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A227" href = "#A227">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;m&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/util/TestHBaseFsck.java.html#L1331">1331</a></td>
+								
+								
+									
+									<td>47</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/util/TestTableName.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A228" href = "#A228">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;name&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/util/TestTableName.java.html#L165">165</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,2135 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">ThrowsCount</td>
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">FinalLocalVariable</td>
+										
+										<td class="c">
+											
+												validateEnhancedForLoopVariable
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF, PARAMETER_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												validateEnhancedForLoopVariable
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF, PARAMETER_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">2686</td>
+							<td id="totalBase">31592</td>
+							
+								<td id="warningSeverityNumBase">31592</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">2686</td>
+							<td id="totalPatch">31665</td>
+							
+								<td id="warningSeverityNumPatch">31665</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">44</td>
+							<td id="totalDiff">73</td>
+							
+								<td id="warningSeverityNumDiff">73</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheckModuleNumBase">31592</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheckModuleNumPatch">31665</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheckModuleNumDiff">73</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">73</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/FindbugsPlugin.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/FindbugsPlugin.java.html#L298">298</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;prio&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/FindbugsPlugin.java.html#L394">394</a></td>
+								
+								
+									
+									<td>40</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/builder/FindBugs2Eclipse.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/builder/FindBugs2Eclipse.java.html#L173">173</a></td>
+								
+								
+									
+									<td>45</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/properties/DetectorProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/properties/DetectorProvider.java.html#L70">70</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/properties/ReportConfigurationTab.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;markerSeverity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/properties/ReportConfigurationTab.java.html#L121">121</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;markerSeverity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/properties/ReportConfigurationTab.java.html#L131">131</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;markerSeverity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/properties/ReportConfigurationTab.java.html#L141">141</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/view/explorer/BugActionProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;item&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/view/explorer/BugActionProvider.java.html#L208">208</a></td>
+								
+								
+									
+									<td>36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/view/explorer/FilterBugsDialog.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;bugPattern&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin/src/de/tobject/findbugs/view/explorer/FilterBugsDialog.java.html#L662">662</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs-ant/src/main/java/edu/umd/cs/findbugs/anttask/FindBugsTask.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;fs&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs-ant/src/main/java/edu/umd/cs/findbugs/anttask/FindBugsTask.java.html#L987">987</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/gui/edu/umd/cs/findbugs/gui2/NewProjectWizard.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;i&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/gui/edu/umd/cs/findbugs/gui2/NewProjectWizard.java.html#L295">295</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;i&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/gui/edu/umd/cs/findbugs/gui2/NewProjectWizard.java.html#L302">302</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/BugInstance.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;annotation&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/BugInstance.java.html#L503">503</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/BugRanker.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;b&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/BugRanker.java.html#L215">215</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;b&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/BugRanker.java.html#L224">224</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/DiscoverSourceDirectories.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;path&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/DiscoverSourceDirectories.java.html#L271">271</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/FindBugs2.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/FindBugs2.java.html#L290">290</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/FindBugs2.java.html#L478">478</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/FindBugs2.java.html#L494">494</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;path&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/FindBugs2.java.html#L660">660</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/OpcodeStack.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;item&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/OpcodeStack.java.html#L1500">1500</a></td>
+								
+								
+									
+									<td>35</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;i&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/OpcodeStack.java.html#L1624">1624</a></td>
+								
+								
+									
+									<td>31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;item&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/OpcodeStack.java.html#L2179">2179</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/PluginLoader.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;messageCollection&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/PluginLoader.java.html#L912">912</a></td>
+								
+								
+									
+									<td>23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ProjectPackagePrefixes.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ProjectPackagePrefixes.java.html#L145">145</a></td>
+								
+								
+									
+									<td>41</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ProjectPackagePrefixes.java.html#L153">153</a></td>
+								
+								
+									
+									<td>46</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;p1&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ProjectPackagePrefixes.java.html#L165">165</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/SelfCalls.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;method&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/SelfCalls.java.html#L80">80</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/SortedBugCollection.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;bugInstance&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/SortedBugCollection.java.html#L480">480</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ba/ClassContext.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ba/ClassContext.java.html#L772">772</a></td>
+								
+								
+									
+									<td>43</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ba/ch/Subtypes2.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ba/ch/Subtypes2.java.html#L414">414</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;c&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ba/ch/Subtypes2.java.html#L761">761</a></td>
+								
+								
+									
+									<td>34</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ba/vna/ValueNumberFrame.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;vn&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ba/vna/ValueNumberFrame.java.html#L336">336</a></td>
+								
+								
+									
+									<td>46</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/engine/EngineRegistrar.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;engine&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/engine/EngineRegistrar.java.html#L54">54</a></td>
+								
+								
+									
+									<td>38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/engine/asm/EngineRegistrar.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;engine&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/engine/asm/EngineRegistrar.java.html#L52">52</a></td>
+								
+								
+									
+									<td>38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/engine/bcel/EngineRegistrar.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;engine&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/engine/bcel/EngineRegistrar.java.html#L99">99</a></td>
+								
+								
+									
+									<td>38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/engine/bcel/ValueRangeAnalysisFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;data&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/engine/bcel/ValueRangeAnalysisFactory.java.html#L726">726</a></td>
+								
+								
+									
+									<td>27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/impl/ClassPathBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;discoveredCodeBase&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/impl/ClassPathBuilder.java.html#L239">239</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/impl/ClassPathImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;cb&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/impl/ClassPathImpl.java.html#L56">56</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;codeBase&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/classfile/impl/ClassPathImpl.java.html#L114">114</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/config/UserPreferences.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/config/UserPreferences.java.html#L198">198</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/CheckTypeQualifiers.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/CheckTypeQualifiers.java.html#L354">354</a></td>
+								
+								
+									
+									<td>36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/FindNoSideEffectMethods.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/FindNoSideEffectMethods.java.html#L887">887</a></td>
+								
+								
+									
+									<td>55</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/FindNullDeref.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;loc&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/FindNullDeref.java.html#L1440">1440</a></td>
+								
+								
+									
+									<td>23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/InfiniteLoop.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;fcb&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/InfiniteLoop.java.html#L226">226</a></td>
+								
+								
+									
+									<td>43</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/InitializationChain.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;c&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/InitializationChain.java.html#L190">190</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/OverridingEqualsNotSymmetrical.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/OverridingEqualsNotSymmetrical.java.html#L407">407</a></td>
+								
+								
+									
+									<td>67</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/OverridingEqualsNotSymmetrical.java.html#L455">455</a></td>
+								
+								
+									
+									<td>67</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L823">823</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L828">828</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L845">845</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L849">849</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L861">861</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L911">911</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L931">931</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A56" href = "#A56">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L959">959</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A57" href = "#A57">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L964">964</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A58" href = "#A58">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L986">986</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A59" href = "#A59">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/UnreadFields.java.html#L1006">1006</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/plan/AnalysisPass.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A60" href = "#A60">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;factory&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/plan/AnalysisPass.java.html#L153">153</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/plan/ExecutionPlan.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A61" href = "#A61">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;node&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/plan/ExecutionPlan.java.html#L366">366</a></td>
+								
+								
+									
+									<td>31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/util/TopologicalSort.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A62" href = "#A62">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e2&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/util/TopologicalSort.java.html#L170">170</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A63" href = "#A63">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/util/TopologicalSort.java.html#L189">189</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A64" href = "#A64">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;e2&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/util/TopologicalSort.java.html#L282">282</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/Filter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A65" href = "#A65">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;m&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/Filter.java.html#L377">377</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/RejarClassesForAnalysis.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A66" href = "#A66">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;fInName&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/RejarClassesForAnalysis.java.html#L343">343</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A67" href = "#A67">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;f&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/RejarClassesForAnalysis.java.html#L491">491</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/TestingGround.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A68" href = "#A68">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;b&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/TestingGround.java.html#L89">89</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/TreemapVisualization.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A69" href = "#A69">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;p&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/TreemapVisualization.java.html#L80">80</a></td>
+								
+								
+									
+									<td>27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A70" href = "#A70">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;p&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/TreemapVisualization.java.html#L88">88</a></td>
+								
+								
+									
+									<td>27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/Update.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A71" href = "#A71">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;bug&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/workflow/Update.java.html#L602">602</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2010_12_09.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A72" href = "#A72">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2010_12_09.java.html#L35">35</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2010_12_11.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A73" href = "#A73">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2010_12_11.java.html#L45">45</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,2060 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">ThrowsCount</td>
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">FinalLocalVariable</td>
+										
+										<td class="c">
+											
+												validateEnhancedForLoopVariable
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF, PARAMETER_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												validateEnhancedForLoopVariable
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF, PARAMETER_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+								<th>Severity-error</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">6386</td>
+							<td id="totalBase">59584</td>
+							
+								<td id="warningSeverityNumBase">59512</td>
+							
+								<td id="errorSeverityNumBase">72</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">6386</td>
+							<td id="totalPatch">59650</td>
+							
+								<td id="warningSeverityNumPatch">59578</td>
+							
+								<td id="errorSeverityNumPatch">72</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">46</td>
+							<td id="totalDiff">66</td>
+							
+								<td id="warningSeverityNumDiff">66</td>
+							
+								<td id="errorSeverityNumDiff">0</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.Checker</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumBase">72</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheckModuleNumBase">59512</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumPatch">72</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheckModuleNumPatch">59578</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheckModuleNumDiff">66</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">66</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/action/internal/BulkOperationCleanupAction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;cleanup&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/action/internal/BulkOperationCleanupAction.java.html#L191">191</a></td>
+								
+								
+									
+									<td>53</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;cleanup&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/action/internal/BulkOperationCleanupAction.java.html#L196">196</a></td>
+								
+								
+									
+									<td>56</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/BinderHelper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;column&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/BinderHelper.java.html#L729">729</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;column&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/BinderHelper.java.html#L733">733</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;sp&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java.html#L1457">1457</a></td>
+								
+								
+									
+									<td>36</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;column&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java.html#L1620">1620</a></td>
+								
+								
+									
+									<td>38</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;contributor&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java.html#L1832">1832</a></td>
+								
+								
+									
+									<td>39</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/CopyIdentifierComponentSecondPass.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;joinColumn&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/CopyIdentifierComponentSecondPass.java.html#L78">78</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/InheritanceState.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;prop&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/InheritanceState.java.html#L263">263</a></td>
+								
+								
+									
+									<td>49</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/PropertyContainer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;property&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/PropertyContainer.java.html#L146">146</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/annotations/reflection/JPAMetadataProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;subelement&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/annotations/reflection/JPAMetadataProvider.java.html#L106">106</a></td>
+								
+								
+									
+									<td>47</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/beanvalidation/BeanValidationEventListener.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;violation&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/cfg/beanvalidation/BeanValidationEventListener.java.html#L141">141</a></td>
+								
+								
+									
+									<td>62</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/engine/jdbc/internal/LogicalConnectionImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;observer&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/engine/jdbc/internal/LogicalConnectionImpl.java.html#L331">331</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/event/internal/AbstractFlushingEventListener.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;me&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/event/internal/AbstractFlushingEventListener.java.html#L254">254</a></td>
+								
+								
+									
+									<td>71</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/integrator/internal/IntegratorServiceImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;integrator&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/integrator/internal/IntegratorServiceImpl.java.html#L49">49</a></td>
+								
+								
+									
+									<td>34</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/internal/SessionFactoryImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;model&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/internal/SessionFactoryImpl.java.html#L761">761</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/relational/Database.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;schema&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/relational/Database.java.html#L108">108</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/IdGeneratorBinder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;generator&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/IdGeneratorBinder.java.html#L79">79</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;generator&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/IdGeneratorBinder.java.html#L84">84</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/QueryBinder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;query&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/QueryBinder.java.html#L81">81</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;queries&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/QueryBinder.java.html#L86">86</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;query&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/QueryBinder.java.html#L93">93</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;queries&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/QueryBinder.java.html#L98">98</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;query&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/QueryBinder.java.html#L105">105</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;queries&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/global/QueryBinder.java.html#L110">110</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/xml/mocker/GlobalAnnotations.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;generator&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/metamodel/source/annotations/xml/mocker/GlobalAnnotations.java.html#L156">156</a></td>
+								
+								
+									
+									<td>45</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/persister/entity/AbstractEntityPersister.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;attributeBinding&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/persister/entity/AbstractEntityPersister.java.html#L919">919</a></td>
+								
+								
+									
+									<td>40</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;i&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/persister/entity/AbstractEntityPersister.java.html#L2573">2573</a></td>
+								
+								
+									
+									<td>27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/persister/entity/SingleTableEntityPersister.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;attributeBinding&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/persister/entity/SingleTableEntityPersister.java.html#L625">625</a></td>
+								
+								
+									
+									<td>39</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/sql/InFragment.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;value&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/main/java/org/hibernate/sql/InFragment.java.html#L98">98</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/annotations/onetomany/OneToManyTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;m&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/annotations/onetomany/OneToManyTest.java.html#L226">226</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/discriminator/DiscriminatorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;customer&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/discriminator/DiscriminatorTest.java.html#L92">92</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/fileimport/SingleLineImportFileTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/fileimport/SingleLineImportFileTest.java.html#L67">67</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/lazyload/JtaLazyLoadingTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;child&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/lazyload/JtaLazyLoadingTest.java.html#L100">100</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/lazyload/LazyLoadingTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;child&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/lazyload/LazyLoadingTest.java.html#L97">97</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/ABCProxyTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;a&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/ABCProxyTest.java.html#L222">222</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/SQLLoaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/SQLLoaderTest.java.html#L67">67</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/SQLLoaderTest.java.html#L70">70</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/SQLLoaderTest.java.html#L73">73</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/SQLLoaderTest.java.html#L157">157</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/SQLLoaderTest.java.html#L211">211</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/SQLLoaderTest.java.html#L246">246</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entity&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/legacy/SQLLoaderTest.java.html#L304">304</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/unionsubclass2/UnionSubclassTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;customer&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/unionsubclass2/UnionSubclassTest.java.html#L93">93</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/util/JoinedIterableTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;s&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-core/src/test/java/org/hibernate/test/util/JoinedIterableTest.java.html#L103">103</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/main/java/org/hibernate/ejb/Ejb3Configuration.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;subelement&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/main/java/org/hibernate/ejb/Ejb3Configuration.java.html#L757">757</a></td>
+								
+								
+									
+									<td>54</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;subelement&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/main/java/org/hibernate/ejb/Ejb3Configuration.java.html#L764">764</a></td>
+								
+								
+									
+									<td>54</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/main/java/org/hibernate/ejb/criteria/QueryStructure.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;root&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/main/java/org/hibernate/ejb/criteria/QueryStructure.java.html#L306">306</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/main/java/org/hibernate/ejb/packaging/NativeScanner.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;pattern&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/main/java/org/hibernate/ejb/packaging/NativeScanner.java.html#L160">160</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/main/java/org/hibernate/ejb/packaging/NativeScanner.java.html#L199">199</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/BaseEntityManagerFunctionalTestCase.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/BaseEntityManagerFunctionalTestCase.java.html#L142">142</a></td>
+								
+								
+									
+									<td>48</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/packaging/JarVisitorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;localEntry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/packaging/JarVisitorTest.java.html#L137">137</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/main/java/org/hibernate/envers/configuration/EntitiesConfigurator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;pcDatasEntry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/main/java/org/hibernate/envers/configuration/EntitiesConfigurator.java.html#L91">91</a></td>
+								
+								
+									
+									<td>60</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/main/java/org/hibernate/envers/configuration/metadata/CollectionMetadataGenerator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;auditedPropertyName&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/main/java/org/hibernate/envers/configuration/metadata/CollectionMetadataGenerator.java.html#L490">490</a></td>
+								
+								
+									
+									<td>38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/main/java/org/hibernate/envers/tools/graph/GraphTopologicalSort.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;v&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/main/java/org/hibernate/envers/tools/graph/GraphTopologicalSort.java.html#L44">44</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/main/java/org/hibernate/envers/tools/query/Parameters.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A56" href = "#A56">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;p&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/main/java/org/hibernate/envers/tools/query/Parameters.java.html#L89">89</a></td>
+								
+								
+									
+									<td>34</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/BaseEnversJPAFunctionalTestCase.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A57" href = "#A57">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;entry&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/BaseEnversJPAFunctionalTestCase.java.html#L187">187</a></td>
+								
+								
+									
+									<td>48</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/manyToManyAudited/ReadEntityWithAuditedManyToManyTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A58" href = "#A58">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;owner&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/manyToManyAudited/ReadEntityWithAuditedManyToManyTest.java.html#L84">84</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/oneToManyAudited/ReadEntityWithAuditedCollectionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A59" href = "#A59">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;owner&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/oneToManyAudited/ReadEntityWithAuditedCollectionTest.java.html#L85">85</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/oneToManyNotAudited/ReadEntityWithAuditedCollectionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A60" href = "#A60">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;owner&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/oneToManyNotAudited/ReadEntityWithAuditedCollectionTest.java.html#L83">83</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/superclass/auditparents/MultipleAuditParentsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A61" href = "#A61">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;columnName&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/superclass/auditparents/MultipleAuditParentsTest.java.html#L56">56</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/superclass/auditparents/SingleAuditParentsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A62" href = "#A62">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;columnName&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/superclass/auditparents/SingleAuditParentsTest.java.html#L54">54</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/superclass/auditparents/TotalAuditParentsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A63" href = "#A63">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;columnName&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/superclass/auditparents/TotalAuditParentsTest.java.html#L57">57</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/superclass/auditparents/TransitiveAuditParentsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A64" href = "#A64">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;columnName&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/superclass/auditparents/TransitiveAuditParentsTest.java.html#L60">60</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-infinispan/src/test/java/org/hibernate/test/cache/infinispan/functional/bulk/BulkOperationsTestCase.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A65" href = "#A65">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;id&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-infinispan/src/test/java/org/hibernate/test/cache/infinispan/functional/bulk/BulkOperationsTestCase.java.html#L127">127</a></td>
+								
+								
+									
+									<td>39</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A66" href = "#A66">#</a></td>
+								<td>warning</td>
+								<td>FinalLocalVariable</td>
+								<td>Variable &#39;id&#39; should be declared final.</td>
+								
+									
+									<td><a href = "xref/Users/eriksilkensen/Code/contribution/checkstyle-tester/repositories/hibernate-orm/hibernate-infinispan/src/test/java/org/hibernate/test/cache/infinispan/functional/bulk/BulkOperationsTestCase.java.html#L137">137</a></td>
+								
+								
+									
+									<td>39</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
