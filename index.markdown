@@ -6,6 +6,6 @@ layout: home
 ---
 
 This is a collection of my homework assignments for the Creative Writing 101 
-class at Gotham Writer's Workshop. I've made small changes to some of them here, 
-fact-checking my memory one or two times, and allowing myself to go beyond 
-the original 500 word count limit.
+class at Gotham Writer's Workshop. I've made small changes to some of them
+here, fact-checking my memory one or two times, and allowing myself to go
+beyond  the original 500 word count limit a couple of times as well.
