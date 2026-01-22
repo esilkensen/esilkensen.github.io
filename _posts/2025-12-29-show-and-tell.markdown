@@ -5,6 +5,10 @@ date:   2025-12-29
 categories: creative-writing-101
 permalink: /creative-writing-101/show-and-tell.html
 ---
+*Prompt: It was her first babysitting job, and Clarissa found the next-door
+neighbor twins quite challenging. SHOW it in a few paragraphs. Try to work in a
+scene (with dialogue), as well as descriptions that are specific and sensory.*
+
 Clarissa McHugh was standing on the Halsey's front porch in her Sunday clothes—a
 plaid skirt and ivory sweater, a matching ribbon in her hair—though it was a
 Friday afternoon. She had a large canvas bag around her shoulder. The

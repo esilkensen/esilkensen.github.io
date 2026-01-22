@@ -5,6 +5,10 @@ date:   2026-01-12
 categories: creative-writing-101
 permalink: /creative-writing-101/fiction.html
 ---
+*Prompt: Begin writing a short story that opens with this line: Chris began to
+question the wisdom of this trip. Conceive this as a short story that focuses on
+Chris taking a single journey on a single day.*
+
 Chris began to question the wisdom of this trip. Not for the first time, to be
 sure. He tossed and turned in his sleep. At the airport, looking at himself in a
 bathroom mirror, he began to question again. In the pale light he looked at the

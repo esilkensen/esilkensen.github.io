@@ -20,7 +20,8 @@
 
 title: Erik Silkensen
 email: eriksilkensen@gmail.com
-description: "Minor Outpourings of the Soul" # >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until "baseurl:"
+  A personal blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://esilkensen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

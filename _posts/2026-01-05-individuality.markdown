@@ -5,6 +5,10 @@ date:   2026-01-05
 categories: creative-writing-101
 permalink: /creative-writing-101/individuality.html
 ---
+*Prompt: Pick a "dislike" of yours, then write a short piece presenting it —
+what it is, why you dislike it so much. Write this very much as you would talk
+to someone you know.*
+
 My sister and I started piano lessons when I was eight and she was six years old.
 It was a rainy summer day, for some reason that sticks in my memory. The two of
 us huddled with our mom on the front steps of a little house on Bross Street.
