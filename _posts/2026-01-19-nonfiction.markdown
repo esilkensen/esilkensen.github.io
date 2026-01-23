@@ -2,8 +2,7 @@
 layout: post
 title:  "Nonfiction"
 date:   2026-01-19
-categories: creative-writing-101
-permalink: /creative-writing-101/nonfiction.html
+tags: creative-writing-101
 ---
 My first class of the day, every day of my senior year of high school, was in
 Mr. Zander's room. It was on the second floor in the northwest corner of the

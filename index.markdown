@@ -4,6 +4,3 @@
 
 layout: home
 ---
-
-This is a collection of my homework assignments for the Creative Writing 101 
-class at Gotham Writer's Workshop.

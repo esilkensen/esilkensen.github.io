@@ -2,13 +2,9 @@
 layout: post
 title:  "OIL"
 date:   2025-12-22
-categories: creative-writing-101
-permalink: /creative-writing-101/oil.html
+tags: creative-writing-101
 ---
-*Prompt: Start with the title "The Window" and apply some OIL (observation,
-imagination, language).*
-
-**The Window**
+The Window
 
 I moved away from home for the first time when I enrolled in a PhD program in
 Boston. My dad made the initial trip out from Colorado with me for an open house
