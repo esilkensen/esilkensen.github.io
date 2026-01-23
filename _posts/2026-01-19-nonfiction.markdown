@@ -20,12 +20,12 @@ picture Mr. Zander standing beside his desk, also in the back of the room, with
 the folded white paper in one hand, rubbing his forehead with the other. In a
 quiet voice, he asked if anyone knew a student named Chad Zabler.
 
-I was surprised to hear the name. For some reason, still waking up, or just
-habitual shyness, I didn't raise my hand. When no one else did, Mr. Zander
-sighed and said he didn't know him either. I spent the rest of that class, at
-least, in a daze. Yes, I knew Chad. Ever since Hygiene Elementary. His wide
-smile, his never-changing buzzed haircut, his puffy Vans shoes with
-salmon-colored waffle bottoms.
+I was surprised to hear the name. For some reason, still waking up, delayed
+processing, just habitual shyness, I didn't raise my hand. When no one else
+did, Mr. Zander sighed and said he didn't know him either. I spent the rest of
+that class, at least, in a daze. Yes, I knew Chad. Ever since Hygiene
+Elementary. His wide smile, his never-changing buzzed haircut, his puffy Vans
+shoes with salmon-colored waffle bottoms.
 
 With Taylor Gold, our mutual best friend at school, we formed a trio. Laser tag
 birthday parties and sleepovers at Taylor's house. We ate lunch together, every
@@ -33,12 +33,11 @@ day, and stood outside talking and watching all the other kids at recess
 together, every day, through our years at Westview Middle School.
 
 When we got to Longmont High something changed. Or rather, I did. I felt I
-needed to forge a new identity. It must have been early September. We were just
-down the road from Loomiller Park at the Pantry Market, standing on the corner
-of Francis Street. When the light changed, I turned away from Taylor and Chad
-and walked back into school alone. We never had lunch together again. The best
-I can say is that I was fourteen years old and sometimes kids treat each other
-that way. I was no better.
+needed to forge a new identity. We were just down the road from Loomiller Park
+, standing on the corner of Francis Street. When the light changed, I turned
+away from Taylor and Chad and walked back into school alone. We never had lunch
+together again. The best I can say is that I was fourteen years old and
+sometimes kids treat each other that way. I was no better.
 
 That memory haunts me now, and it did then, on that Wednesday morning a few
 weeks before graduation, when Mr. Zander told us that Chad Zabler died the day
